@@ -119,3 +119,25 @@ You’ve now:
 - Made a repo and pushed code — all from terminal!
 
 Keep this as your quick-start guide for future projects. 🧠💪
+
+
+# 🔁 What to Do After Logging Back In
+- Open terminal
+- Log in again
+```bash
+gh auth login
+```
+- Navigate to your project folder
+```bash
+cd git-setup-notes
+```
+- Edit your README or other files:
+```bash
+notepad README.md
+```
+- Save your changes, then back in the terminal
+```bash
+git add README.md
+git commit -m "Update README with new workflow section"
+git push
+```
